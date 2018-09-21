@@ -6,8 +6,10 @@
 
 Some commands operate in two modes: they either use the system certificate
 store or they allow you to disable TLS verification entirely. This is often an
-unhelpful dichotomy. I often have a development PKI constructed which is
-perfectly valid but I don't want to mess with the system store.
+unhelpful dichotomy. It's common to have a development PKI constructed which is
+perfectly valid but we'd don't want to mess with the system certificate store.
+We could patch all of these external programs but that's a long task we can do
+in the background.
 
 This tool lets you replace the system certificates for a single command
 invocation while leaving them pristine for the rest of your system.
