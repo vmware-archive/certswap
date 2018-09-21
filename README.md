@@ -17,7 +17,7 @@ invocation while leaving them pristine for the rest of your system.
 ## install
 
 ```
-go get github.com/xoebus/certswap
+go get github.com/pivotal-cf/certswap
 ```
 
 ## example
