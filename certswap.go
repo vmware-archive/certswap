@@ -58,7 +58,7 @@ func main() {
 	}
 
 	// Mount over the system cert path with our certificate directory.
-	if err := unix.Mount(os.Getenv(pathEnv), "/etc/ssl/certs", "", unix.MS_BIND, ""); err != nil {
+	if err := unix.Mount(os.Getenv(pathEnv), "/etc/ssl/certs", "", unix.MS_BIND|unix.MS_RDONLY, ""); err != nil {
 		log.Fatal(err)
 	}
 
