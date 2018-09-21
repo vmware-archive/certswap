@@ -1,0 +1,4 @@
+github.com/spf13/pflag v1.0.2 h1:Fy0orTDgHdbnzHcsOgfCN4LtHf0ec3wwtiwJqwvf3Gc=
+github.com/spf13/pflag v1.0.2/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
+golang.org/x/sys v0.0.0-20180921163948-d47a0f339242 h1:5DYsa+ZAwcJHjuY0Qet390sUr7qwkpnRsUNjddyc0b8=
+golang.org/x/sys v0.0.0-20180921163948-d47a0f339242/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
