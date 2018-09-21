@@ -117,7 +117,8 @@ func runCommand(cmd *exec.Cmd) int {
 			}
 			return -1
 		}
-		panic(fmt.Sprint("failed to run child:", err.Error()))
+		log.Println("failed to run child:", err.Error())
+		return -1
 	}
 	return 0
 }
